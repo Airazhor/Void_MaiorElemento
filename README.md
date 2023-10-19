@@ -4,12 +4,12 @@ Desenvolva uma função que receba como parâmetro um array de inteiros contendo
 
 
 
-#include<stdio.h>
-#include <stdlib.h>
+    #include<stdio.h>
+    #include <stdlib.h>
 
-int vmaximo, repet; //Utilizo variáveis globais para armazenar o valor máximo e a contagem de repetições
+    int vmaximo, repet; //Utilizo variáveis globais para armazenar o valor máximo e a contagem de repetições
 
-void AcharMaiorE(int elementos[], int num_elementos) {
+    void AcharMaiorE(int elementos[], int num_elementos) {
     int j;
     
     vmaximo = elementos[0]; // Inicia o valor máximo com o primeiro elemento
@@ -25,11 +25,10 @@ void AcharMaiorE(int elementos[], int num_elementos) {
          repet++; // Conta quantas vezes o valor máximo ocorre no array
          }
     }
-}
-int main() {
+    }
+    int main() {
     int N;
     int i = 0;
-    
     printf("Olá, Que quantidade de números tera sua lista?:\n");
     scanf ("%d", &N);
 
